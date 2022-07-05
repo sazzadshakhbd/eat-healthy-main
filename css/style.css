@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: -0.02em;
+    color: #828282;
+}
+
+.button-link {
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    border-radius: 100px;
+    width: 192px;
+    height: 68px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    line-height: 68px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+section {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.orange-color {
+    color: #FBA24F;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.top-banner h1 {
+    font-size: 60px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #575757;
+
+}
+
+.bg-hero {
+    background-image: url('../img/shapes/Group-8450.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-me {
+    background-image: url('../img/shapes/7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+
+}
+
+.about-me img {
+    max-width: 338px;
+}
